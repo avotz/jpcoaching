@@ -3,7 +3,7 @@
   var btnMenu = $('#btn-menu'),
       menu = $('.header__menu');
      
-     
+      new WOW().init();
       
        btnMenu.on('click', function(){
             menu.toggle();

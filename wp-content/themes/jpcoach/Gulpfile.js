@@ -32,8 +32,8 @@ gulp.task('js', function () {
       /*'./assets/js/vendor/jquery.magnific-popup.min.js',*/
       /*'./assets/js/vendor/jquery.mCustomScrollbar.js',*/
       './assets/js/vendor/jquery.cycle2.min.js',
-      /*'./assets/js/vendor/chosen.jquery.min.js',
-      './assets/js/vendor/wow.min.js',*/
+      /*'./assets/js/vendor/chosen.jquery.min.js',*/
+      './assets/js/vendor/wow.min.js',
       /*'./assets/js/vendor/jquery.uniform.js',*/
       
      
@@ -59,7 +59,7 @@ gulp.task('stylus', function () {
 });
 
 gulp.task('css', function () {
-  gulp.src(['./assets/css/main.css',/*'./assets/css/magnific-popup.css',*/])
+  gulp.src(['./assets/css/main.css','./assets/css/animate.css'])
     /*.pipe(minifyCSS({ keepSpecialComments: '*', keepBreaks: '*'}))*/
     .pipe(concat('style.css'))
     .pipe(gulp.dest('./'))
