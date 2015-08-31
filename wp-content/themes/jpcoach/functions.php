@@ -128,6 +128,12 @@ function jpcoach_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'jpcoach_scripts' );
 
+
+function jpcoach_favicon() {
+    echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.get_template_directory_uri().'/favicon.ico" />';
+}
+add_action('wp_head', 'jpcoach_favicon');
+
 /**
  * Implement the Custom Header feature.
  */
