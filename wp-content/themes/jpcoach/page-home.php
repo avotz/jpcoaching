@@ -23,6 +23,9 @@ get_header(); ?>
                     <div class="banner__slide" >
                         <img src="<?php echo get_template_directory_uri(); ?>/img/banner3.jpg" alt="Banner" />
                     </div>
+                    <div class="banner__slide" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/banner4.jpg" alt="Banner" />
+                    </div>
                 
                     
                 </div>       
