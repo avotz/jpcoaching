@@ -9,7 +9,16 @@
             menu.toggle();
            
         });
+    $('.top__languages').hoverIntent({
+      over: function() {
+            $('.top__languages__container').slideDown(200 );
+          },
+      out:  function() {
+            $('.top__languages__container').slideUp(200);
+          },
+      timeout: 200
 
+       });
     /*menu.find(".parent").hoverIntent({
           over: function() {
 

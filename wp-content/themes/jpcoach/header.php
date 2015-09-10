@@ -34,6 +34,13 @@
              <a href="skype:jpcoachgroup" class="top__social__link"><i class="icon-skype"></i></a>
                      
         </div>
+        <div class="top__languages">
+            <a href="#" class="top__languages__link">Cambiar idioma</a>
+            <div class="top__languages__container">
+                <?php echo do_shortcode('[google-translator]'); ?>
+            </div>
+        </div>
+        
     </div>
 </div>
 <header class="header">

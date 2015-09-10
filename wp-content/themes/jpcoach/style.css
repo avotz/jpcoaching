@@ -727,15 +727,44 @@ img {
 .top__social__link:hover {
   color: #e8941c;
 }
+.top__languages {
+  position: relative;
+}
+.top__languages__link {
+  color: #009cb3;
+}
+.top__languages__container {
+  display: none;
+  background-color: #fff;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 9999;
+  width: 208px;
+  top: 36px;
+  border: 1px solid #c3c3c3;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
 @media screen and (min-width: 900px) {
   .top {
-    overflow: hidden;
+    height: 45px;
   }
   .top__email {
     float: left;
   }
   .top__social {
     float: right;
+  }
+  .top__languages {
+    position: absolute;
+    right: 11rem;
+  }
+  .top__languages__container {
+    top: 40px;
   }
 }
 .header {

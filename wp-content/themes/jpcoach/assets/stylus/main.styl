@@ -149,14 +149,36 @@ img
 			padding 0 .5rem
 			&:hover
 				color naranja
+	&__languages
+		
+		position relative
+		&__link
+			color celeste 
+		&__container
+			display none
+			background-color white
+			padding .5rem
+			position absolute
+			z-index 9999
+			width 208px
+			top 36px
+			border 1px solid #c3c3c3
+			left 50%
+			transform translate(-50%, 0)			
 				
 @media screen and (min-width:900px)
 	.top 
-		overflow hidden
+		//overflow hidden
+		height 45px
 		&__email
 			float left
 		&__social
-			float right			
+			float right
+		&__languages
+			position absolute
+			right 11rem
+			&__container
+				top 40px				
 	
 .header
 	box-shadow 1px 1px 2px rgba(0, 0, 0, .75)
