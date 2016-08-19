@@ -19,7 +19,7 @@
                
 
                 <div class="footer__copyright">
-                    &copy; 2015 Copyright Integrapmo  - <a href="http://avotz.com"><i class="icon-avotz"></i></a>
+                    &copy; 2016 Copyright Integra  - <a href="http://avotz.com"><i class="icon-avotz"></i></a>
                 </div>
             </div>
         
