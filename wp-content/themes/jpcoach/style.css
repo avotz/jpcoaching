@@ -690,8 +690,8 @@ img {
 }
 .btn-orange:hover,
 .wpcf7-submit:hover {
-  background-color: #009cb3;
-  border-color: #009cb3;
+  background-color: #084461;
+  border-color: #084461;
   color: #fff;
 }
 .inner {
@@ -716,11 +716,11 @@ img {
   color: #e8941c;
 }
 .top__email a:hover {
-  color: #009cb3;
+  color: #084461;
 }
 .top__social__link {
   display: inline-block;
-  color: #009cb3;
+  color: #084461;
   font-size: 1.3rem;
   padding: 0 0.5rem;
 }
@@ -731,7 +731,7 @@ img {
   position: relative;
 }
 .top__languages__link {
-  color: #009cb3;
+  color: #084461;
 }
 .top__languages__container {
   display: none;
@@ -849,7 +849,7 @@ img {
   }
   .header__menu__link:hover,
   .header__menu a:hover {
-    border-color: #009cb3;
+    border-color: #084461;
   }
   .header__btn-menu {
     display: none;
@@ -880,7 +880,7 @@ img {
   padding: 0.2rem;
 }
 .banner__pager .cycle-pager-active {
-  color: #5a8a2f;
+  color: #5ea19d;
 }
 @media screen and (min-width: 900px) {
   .banner {
@@ -1002,7 +1002,7 @@ img {
   }
 }
 .services__header {
-  background-color: #009cb3;
+  background-color: #084461;
   padding: 2rem 0;
 }
 .services__title {
@@ -1029,7 +1029,7 @@ img {
 .services__content__item__icon {
   display: block;
   margin: 0 auto 1rem;
-  background-color: #5a8a2f;
+  background-color: #5ea19d;
   width: 70px;
   height: 70px;
   -webkit-border-radius: 50%;
@@ -1053,7 +1053,7 @@ img {
   content: '';
   height: 2px;
   width: 60px;
-  background-color: #5a8a2f;
+  background-color: #5ea19d;
   position: absolute;
   bottom: -15px;
   left: 50%;
@@ -1092,7 +1092,7 @@ img {
   }
 }
 .clients__header {
-  background-color: #5a8a2f;
+  background-color: #5ea19d;
   padding: 2rem 0;
 }
 .clients__title {
@@ -1134,7 +1134,7 @@ img {
   width: 100%;
 }
 .contact__header {
-  background-color: #4e382c;
+  background-color: #084461;
   padding: 2rem 0;
 }
 .contact__title {
@@ -1196,7 +1196,7 @@ img {
   display: inline-block;
 }
 .contact__content__social__link:hover {
-  background-color: #009cb3;
+  background-color: #084461;
 }
 .contact .bold {
   font-weight: bold;
