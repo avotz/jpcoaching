@@ -24,7 +24,7 @@
 <div id="top" class="top">
     <div class="inner">
         <div class="top__email">
-            <a href="mailto::jcortes@jpcoachgroup.com">jcortes@jpcoachgroup.com</a>
+            <a href="mailto::jcortes@jpcoachgroup.com">jcortes@integrapmo.com</a>
         </div>
         <div class="top__social">
 
