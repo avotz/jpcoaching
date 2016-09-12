@@ -954,20 +954,16 @@ img {
 }
 .team__content {
   padding-bottom: 2rem;
-}
-.team__content__img {
-  display: block;
-  width: 143px;
-  height: 143px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  margin: 2rem auto;
-}
-.team__content__img img {
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  width: 143px;
-  height: 143px;
+/*&__img
+			display block
+			/*width 143px
+			height 143px
+			border-radius 50%
+			margin 2rem auto
+			img 
+				border-radius 50%
+				width 143px
+				height 143px*/
 }
 .team__content__info h3 {
   color: #000;
@@ -1126,9 +1122,6 @@ img {
   justify-content: space-around;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.clients__content__item {
-  width: 105px;
 }
 .clients__content__item__img {
   width: 100%;
