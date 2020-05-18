@@ -1001,6 +1001,9 @@ img {
   box-shadow: 1px 2px 8px rgba(0,0,0,0.35);
   padding: 0.5rem;
 }
+.services figure {
+  border: 6px solid #1ba29e;
+}
 .services__header {
   background-color: #084461;
   padding: 2rem 0;
