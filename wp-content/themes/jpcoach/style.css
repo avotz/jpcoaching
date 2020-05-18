@@ -937,6 +937,10 @@ img {
     width: 45%;
   }
 }
+.team {
+  color: #fff;
+  background-color: #5ea19d;
+}
 .team__header {
   background-color: #5ea19d;
   padding: 2rem 0;
