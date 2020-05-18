@@ -15,7 +15,7 @@ Tags:
 @import "nib"
 @import "normalize.styl"
 @import "icons.styl"
-@import "blog.styl"
+
 
 naranja = #e8941c//#ffb730//#ffe600
 gris = #4D4D4D
@@ -128,7 +128,7 @@ img
 	display flex
 	flex-wrap wrap
 	justify-content space-around
-	
+
 .inner
 	max-width 1170px
 	margin 0 auto
@@ -139,7 +139,8 @@ img
 @media screen and (min-width:900px)
 	body
 		font-size 100%
-
+.site-main
+	padding-top 6rem
 .top 
 	border-bottom 1px solid #c3c3c3
 	//overflow hidden
@@ -575,3 +576,6 @@ img
 	display none
 	&.on 
 		display block
+
+
+@import "blog.styl"
