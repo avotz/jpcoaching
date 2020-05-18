@@ -649,7 +649,6 @@ img {
 .btn,
 .wpcf7-submit {
   padding: 0.5rem 0.8rem;
-  -webkit-border-radius: 6px;
   border-radius: 6px;
   display: inline-block;
   color: #000;
@@ -997,6 +996,11 @@ img {
     vertical-align: top;
   }
 }
+.services h2 {
+  -webkit-box-shadow: 1px 2px 8px rgba(0,0,0,0.35);
+  box-shadow: 1px 2px 8px rgba(0,0,0,0.35);
+  padding: 0.5rem;
+}
 .services__header {
   background-color: #084461;
   padding: 2rem 0;
@@ -1028,7 +1032,6 @@ img {
   background-color: #5ea19d;
   width: 70px;
   height: 70px;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   line-height: 70px;
   color: #fff;
@@ -1153,7 +1156,6 @@ img {
 .contact__content__form input[type="email"],
 .contact__content form input[type="email"] {
   width: 100%;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #c2c2c2;
   height: 35px;
@@ -1165,7 +1167,6 @@ img {
   height: 150px;
   border: 1px solid #c2c2c2;
   background-color: #fbfcfc;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 .contact__content__social {
@@ -1177,7 +1178,6 @@ img {
   background-color: #e8941c;
   width: 40px;
   height: 40px;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   line-height: 40px;
   text-align: center;
@@ -1247,7 +1247,6 @@ img {
 }
 .scroll-top {
   background-color: rgba(0,0,0,0.45);
-  -webkit-border-radius: 5px;
   border-radius: 5px;
   display: block;
   padding: 0.2rem 1rem;
