@@ -937,6 +937,9 @@ img {
 .about p {
   text-align: justify;
 }
+.about .has-huge-font-size {
+  text-align: center;
+}
 .about__header {
   padding: 2rem 0;
 }
@@ -989,6 +992,9 @@ img {
 }
 .team p {
   text-align: justify;
+}
+.team .has-huge-font-size {
+  text-align: center;
 }
 .team__header {
   background-color: #5ea19d;
