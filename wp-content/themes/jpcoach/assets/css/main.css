@@ -934,7 +934,7 @@ img {
     max-height: 600px;
   }
 }
-.about {
+.about p {
   text-align: justify;
 }
 .about__header {
@@ -986,6 +986,8 @@ img {
 .team {
   color: #fff;
   background-color: #5ea19d;
+}
+.team p {
   text-align: justify;
 }
 .team__header {
