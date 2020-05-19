@@ -58,16 +58,19 @@ get_header(); ?>
         
     </section>
      <section id="services" class="services">
-        <?php rewind_posts(); ?>
-    <?php query_posts( 'post_type=page&page_id=30' ); ?>
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <div class="inner">
+                <?php rewind_posts(); ?>
+            <?php query_posts( 'post_type=page&page_id=30' ); ?>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'template-parts/content', 'one-page' ); ?>
+                    <?php get_template_part( 'template-parts/content', 'one-page' ); ?>
 
-        <?php endwhile; ?>
-        <!-- post navigation -->
-      
-    <?php endif; ?>
+                <?php endwhile; ?>
+                <!-- post navigation -->
+            
+            <?php endif; ?>
+        </div>
+       
     </section>
              <section id="clients" class="clients">
                    <?php rewind_posts(); ?>
